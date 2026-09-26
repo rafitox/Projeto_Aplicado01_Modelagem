@@ -26,10 +26,8 @@ Arquivos desta pasta:
 - **`ON DELETE RESTRICT`** (default do SQLite) impede excluir técnico/equipamento com medições vinculadas (RN22).
 - **`status_auditoria` controlado por CHECK** com `DEFAULT 'VALIDO'`, refletindo a regra do ETL que marca pendências.
 
-## Próximas entregas
+## Visualização do ETL e do Banco SQLite
+- **ETL**: Visualização do Google Colab https://colab.research.google.com/drive/1JQMUH9JrhS8gnQdKGaOZv1lXXp62qCal#scrollTo=wh0jo31OBy43
+- **SQLite**: É possível visualizar arrastando o arquivo .db para https://sqliteviewer.app/
 
-Itens fora do escopo desta entrega, previstos para fases seguintes do projeto:
 
-- Entidades `Padrao`, `Criterio`, `Incerteza` e `Certificado` (já mapeadas no dicionário da Entrega 01).
-- Carga inicial a partir do pipeline ETL em Python.
-- Consultas de histórico e emissão do certificado com aprovação técnica.
